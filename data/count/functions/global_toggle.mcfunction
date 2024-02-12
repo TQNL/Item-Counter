@@ -1,0 +1,2 @@
+tellraw @s [{"text":"Toggle item counter for all loaded items\n","color":"gray"},{"text":"On","color":"green","clickEvent":{"action":"run_command","value":"/scoreboard players set #global_toggle global_item_counter 1"}},{"text":" / ","color":"gray"},{"text":"Off","color":"red","clickEvent":{"action":"run_command","value":"/scoreboard players reset #global_toggle global_item_counter"}}]
+scoreboard players reset @s global_item_counter
