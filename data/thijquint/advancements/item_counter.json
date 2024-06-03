@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:paper"
+      "id": "minecraft:paper"
     },
     "title": "Item Counter",
     "description": "Easily count items in the world",
