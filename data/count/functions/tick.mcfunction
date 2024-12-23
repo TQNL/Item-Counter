@@ -4,7 +4,7 @@ execute as @a[scores={reset_count=1..}] at @s run scoreboard players reset * ite
 scoreboard players reset @a[scores={reset_count=1..}] reset_count
 
 # count items around armorstand
-execute as @e[type=armor_stand,tag=!ic_processed] if data entity @s CustomName run function count:armor_stand
+execute as @e[type=armor_stand,tag=!ic_processed] run function count:armor_stand
 execute as @e[tag=item_counter_anchor] at @s run function count:anchor1
 
 # global item counter
