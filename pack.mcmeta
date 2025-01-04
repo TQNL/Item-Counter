@@ -1,6 +1,10 @@
 {
-    "pack":{
-        "pack_format": 48,
-        "description": "Easily count items in the world. By ThijquintNL."
+  "pack": {
+    "pack_format": 48,
+    "description": "Easily count items in the world. By ThijquintNL.",
+    "supported_formats": {
+      "min_inclusive": 48,
+      "max_inclusive": 61
     }
+  }
 }
