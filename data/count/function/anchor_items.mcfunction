@@ -1,1 +1,1 @@
-execute as @e[type=item,sort=nearest,limit=1,distance=..0.01] run function count:count
+execute as @n[type=item,distance=..0.01] run function count:count

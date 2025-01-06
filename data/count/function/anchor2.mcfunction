@@ -4,4 +4,4 @@ tp @s ~ ~ ~ ~10 ~
 # count items within radius
 execute if score #global_toggle global_item_counter matches 1 run return 0
 
-$execute at @e[type=item,tag=!ic_processed,sort=nearest,limit=1,distance=..$(Health)] run function count:anchor_items
+$execute at @n[type=item,tag=!ic_processed,distance=..$(Health)] run function count:anchor_items
