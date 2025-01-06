@@ -14,4 +14,4 @@ execute as @a[scores={global_item_counter=1..}] run function count:global_toggle
 scoreboard players enable @a item_count_sidebar
 execute as @a[scores={item_count_sidebar=1..}] run function count:sidebar
 
-execute if score #global_toggle global_item_counter matches 1 as @e[type=item,tag=!ic_processed,sort=nearest,limit=1] at @s run function count:count with entity @s Item
+execute if score #global_toggle global_item_counter matches 1 as @n[type=item,tag=!ic_processed] at @s run function count:count with entity @s Item
