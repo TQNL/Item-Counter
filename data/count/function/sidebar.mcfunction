@@ -1,2 +1,2 @@
-tellraw @s [{"text":"Toggle sidebar info for counted items\n","color":"gray"},{"text":"On","color":"green","clickEvent":{"action":"run_command","value":"/scoreboard objectives setdisplay sidebar item_count"}},{"text":" / ","color":"gray"},{"text":"Off","color":"red","clickEvent":{"action":"run_command","value":"/scoreboard objectives setdisplay sidebar"}}]
+tellraw @s [{"text":"Toggle sidebar info for counted items\n","color":"gray"},{"text":"On","color":"green","click_event":{"action":"run_command","command":"/scoreboard objectives setdisplay sidebar item_count"}},{"text":" / ","color":"gray"},{"text":"Off","color":"red","click_event":{"action":"run_command","command":"/scoreboard objectives setdisplay sidebar"}}]
 scoreboard players reset @s item_count_sidebar
